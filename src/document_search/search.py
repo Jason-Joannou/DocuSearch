@@ -18,8 +18,4 @@ def crawl_directory(directory, excluded_dir_names=excluded_direcotries, included
     return file_paths
 
 
-documents = crawl_directory(directory=search_directory)
-for doc in documents:
-    print(doc)
-
 
